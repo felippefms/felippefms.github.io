@@ -1,5 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
 body{
     background-image:url(/felippefms.github.io/imgs/wallpaperflare.com_wallpaper\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+#menu{
+    background-color: black;
 }

@@ -4,12 +4,52 @@
     box-sizing: border-box;
     list-style: none;
     text-decoration: none;
+    flex-wrap: wrap;
 }
-body{
+
+#main-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 100vh;
     background-image:url(/felippefms.github.io/imgs/wallpaperflare.com_wallpaper\ \(1\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    
 }
+
+#name-wrapper{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 0 0;
+}
+
+#name{
+    font-size: 40px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    color: #fff;
+}
+
 #menu{
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 0 0;
+    justify-content: center;
+}
+
+#menu ul{
+    display: flex;
+    justify-content: center;
+}
+
+#menu li{
+    padding: 0 12px;
+}
+
+#menu li a{
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: Montserrat;
+    text-transform: uppercase;
 }

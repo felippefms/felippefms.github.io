@@ -14,7 +14,8 @@
     height: 100vh;
     background-image:url(https://github.com/felippefms/felippefms.github.io/blob/main/imgs/backgroundimg.jpg?raw=true);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% contain;
+    background-position:center;
     
 }
 
@@ -44,12 +45,54 @@
 }
 
 #menu li{
-    padding: 0 12px;
+    padding: 0px 12px;
 }
 
-#menu li a{
+#menu .option{
     font-size: 1.5rem;
     color: #fff;
     font-family: Montserrat;
     text-transform: uppercase;
+    padding: 0 5px;
+}
+
+#menu .option:hover{
+    color: #777BD3;
+    border-radius: 10px;
+    border: rgba(255, 255, 255, 0.589);
+    background-color: rgba(255, 255, 255, 0.226);
+}
+
+.bar{
+    font-size: 1.5rem;
+    color: #fff;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    user-select: none;
+}
+
+@media(max-width:752px){
+    #name-wrapper{
+        text-align: center;
+        margin: 40px 0 0 0;
+    }
+
+    #menu{
+        flex-direction: column;
+        margin: 70px 0 0 0;
+    }
+
+    #menu ul{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    #menu li{
+        padding: 10px 0 20px 0;
+    }
+
+    .bar{
+        display: none;
+    }
 }

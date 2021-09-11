@@ -14,16 +14,133 @@
         <div id="name-wrapper"><a id="name">Felipe Madureira de Souza</a></div>
         <nav id="menu">
             <ul>
-                <li><a class="option" href="#">Projetos</a></li>
+                <li><a class="option" href="#" onclick="show1()">Projetos</a></li>
                 <li class="bar"><a>|</a></li>
-                <li><a class="option" href="#">Conhecimentos</a></li>
+                <li><a class="option" href="#" onclick="show2()">Conhecimentos</a></li>
                 <li class="bar"><a>|</a></li>
-                <li><a class="option" href="sobre.html">Sobre</a></li>
+                <li><a class="option" href="#" onclick="show3()">Sobre</a></li>
                 <li class="bar"><a>|</a></li>
-                <li><a class="option" href="#">Contato</a></li>
+                <li><a class="option" href="#" onclick="show4()">Contato</a></li>
             </ul>
         </nav>
     </header>
+
+    <section class="contentWrapper">
+        <button class="closeBtn" onclick="CloseBtn()"></button>
+        <section id="projetos" class="content">
+            <p>
+                Alguns dos meus projetos pessoais e open-source serão publicados aqui , na minha página do LinkedIn e em minha página do GitHub.
+            </p>
+
+            <div class="projectWrapper">
+                <a href="https://github.com/felippefms/ResponsiveMenu" target="_blank"><img src="./imgs/menu.png" alt="Responsive Menu"></a>
+                <a href="https://github.com/felippefms/ResponsiveMenu" target="_blank">Responsive Menu</a>
+                <p>
+                    Um menu simples e Responsivo, feito com HTML, CSS e Media queries.
+                </p>
+            </div>
+
+            <div class="projectWrapper">
+               <a href="https://github.com/felippefms/Flappy-Bird" target="_blank"><img src="./imgs/passaro.png" alt="Flappy Bird"></a>
+                <a href="https://github.com/felippefms/Flappy-Bird" target="_blank">Flappy Bird</a>
+                <p>
+                    Um jogo ao estilo Flappy Bird, criado utilizando Javascript durante o curso WEB MODERNO da Cod3r.
+                </p>
+            </div>
+        </section>
+    </section>
+
+    <section class="contentWrapper">
+        <button class="closeBtn" onclick="CloseBtn()"></button>
+        <section id="conhecimentos" class="content">
+            <p> O principal objetivo desse site é tornar de forma pública todos os meus conhecimentos em diversas tecnologias, frameworks e bibliotecas. Assim como a publicação dos meus projetos pessoais de portifólio.<br><br></p>
+            
+            <div class="knowledgeWrapper">
+                <img src="./imgs/html-5.png" alt="HTML5">
+                <p>HTLM 5</p>
+                <p><br> Tags de HTML atuais e de fácil leitura, código limpo e atribuições com funções Javascript.</p>
+            </div>
+
+            <div class="knowledgeWrapper">
+                <img src="./imgs/css-3.png" alt="CSS3">
+                <p>CSS 3</p>
+                <p><br> Responsividade, UI, estilos, efeitos, transições e media queries.</p>
+            </div>
+
+            <div class="knowledgeWrapper">
+                <img src="./imgs/javascript.png" alt="JAVASCRIPT">
+                <p>JAVASCRIPT</p>
+                <p><br> Funções, manipulação da DOM, eventos e programação WEB moderna.</p>
+            </div>
+
+            <div class="knowledgeWrapper">
+                <img src="./imgs/nodejs.png" alt="NODE.JS">
+                <p>NODE.JS</p>
+                <p><br> Criação de arrays, objetos e funções JAVASCIPT, JSON e código limpo para fácil leitura.</p>
+            </div>
+
+            <div class="knowledgeWrapper">
+                <img src="./imgs/bootstrap.png" alt="Bootstrap">
+                <p>Bootstrap</p>
+                <p><br> Utilização de Bootstrap em aplicações WEB, tags e escrita seguindo a documentação.</p>
+            </div>
+
+        </section>
+    </section>
+
+    <section class="contentWrapper">
+        <button class="closeBtn" onclick="CloseBtn()"></button>
+        <section id="sobre" class="content">
+        <img id="foto_felipe" src="imgs/foto_felipe.jpg">
+        <p>
+            <br>Olá !<br><br> Me chamo Felipe Madureira de Souza, tenho 24 anos e no momento estou cursando Análise e Desenvolvimento de Sistemas.
+            Aos 13 anos conheci o desenvolvimento de software e desde então me dedico a estudar e colocar em prática minhas ideias, no momento estou focado no ambiente Front-End, na criação de Web-Sites e sistemas utilizando Javascript com suas mais atuais bibliotecas, frameworks e tecnologias.<br><br>
+            Apaixonado por música, jogos e hardware, sempre tento algo novo, seja um projeto na web, aprender uma nova tecnologia ou passar um tempo com a família e amigos. Visite as outras opções do site, lá eu conto um pouco sobre meus projetos e conhecimentos que ajudam na caminhada para me tornar o melhor desenvolvedor que eu posso ser.<br><br>
+            Se deseja uma oportunidade de trabalharmos juntos, entre em contato por email ou telefone, será um prazer ajudar você !<br><br>
+        </p>
+        </section>
+    </section>
+
+    <section class="contentWrapper">
+        <button class="closeBtn" onclick="CloseBtn()"></button>
+        <section id="contato" class="content">
+
+            <div class="contactWrapper">
+            <img src="./imgs/phone-call.png" alt="Telefone">
+            <p id="telefone">
+                <p>Telefone</p> 
+                <a href="https://wa.me/+05527999053721">(27) 99905-3721</a>
+            </p>
+            </div>
+
+            <div class="contactWrapper">
+                <img src="./imgs/gmail.png" alt="E-Mail">
+                <p id="email">
+                    <p>E-Mail</p> 
+                    <a>felippefms3@gmail.com</a>
+                </p>
+                </div>
+
+            <div class="contactWrapper">
+            <img src="./imgs/github.png" alt="GitHub">
+            <p id="github">
+                <p>GitHub</p> 
+                <a href="https://github.com/felippefms">github.com/felippefms</a>
+            </p>
+            </div>
+
+            <div class="contactWrapper">
+            <img src="./imgs/linkedin.png" alt="LinkedIn">
+            <p id="linkedin">
+                <p>LinkedIn</p> 
+                <a href="https://www.linkedin.com/in/felippefms/">linkedin.com/in/felippefms</a>
+            </p>
+            </div>
+            
+        </section>
+    </section>
+    
+    <script src="script.js"></script>
 </div>
 </body>
 </html>

@@ -52,6 +52,8 @@
 #menu .option{
     font-size: 1.5rem;
     color: #fff;
+    background-color: rgba(36, 36, 36, 0.555);
+    border-radius: 14px;
     font-family: Montserrat;
     font-weight: 520;
     text-transform: uppercase;
@@ -60,7 +62,7 @@
 
 #menu .option:hover{
     color: #777BD3;
-    border-radius: 10px;
+    border-radius: 14px;
     border: rgba(255, 255, 255, 0.589);
     background-color: rgba(255, 255, 255, 0.226);
 }
@@ -239,13 +241,7 @@
 @media(max-width:752px){
     #name-wrapper{
         text-align: center;
-        margin: 20px 2px 0 2px;
-    }
-
-    #menu{
-        flex-direction: column;
-        margin: 50px 0 0 0;
-        background-color: rgba(36, 36, 36, 0.911);
+        margin: 20px 0 0 0;
     }
 
     #menu ul{

@@ -245,6 +245,7 @@
     #menu{
         flex-direction: column;
         margin: 50px 0 0 0;
+        background-color: rgba(36, 36, 36, 0.911);
     }
 
     #menu ul{

@@ -264,4 +264,8 @@
         background-color: rgba(36, 36, 36, 0.555);
         border-radius: 14px;
     }
+
+    .content p{
+        text-align: left;
+    }
 }

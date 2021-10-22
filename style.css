@@ -153,7 +153,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: justify;
+    text-align: left;
+    text-justify: auto;
     margin: 70px 0;
 }
 
@@ -171,7 +172,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: justify;
+    text-align: left;
     margin: 70px 0;
 }
 
@@ -184,7 +185,7 @@
 
 .projectWrapper a{
     display: flex;
-    text-align: justify;
+    text-align: left;
     font-size: 1.2rem;
     color: rgb(255, 255, 255);
     font-family: Montserrat;
@@ -197,7 +198,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    text-align: justify;
+    text-align: left;
     margin: 70px 0;
 }
 
@@ -266,6 +267,6 @@
     }
 
     .content p{
-        text-align: justify;
+        text-align: left;
     }
 }

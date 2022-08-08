@@ -22,3 +22,7 @@ function show4(){
     var contentAtual = document.getElementsByClassName("contentWrapper");
     contentAtual[3].style.display = "flex";
 }
+function Idade() {
+    var today = new Date();
+    var year = today.getFullYear();
+}

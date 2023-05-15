@@ -15,7 +15,7 @@ export default function Projetos() {
         <p class="text-white text-left text-[1.2rem] font-[540] cursor-default">Alguns dos meus projetos pessoais e open-source serão publicados aqui, na minha página do LinkedIn e na minha página do GitHub.</p>
         <ProjectBox 
         image={paginapersonalizada}
-        content="https://felippefms.github.io/pagina-customizada/"
+        content="https://github.com/felippefms/pagina-customizada"
         title= "Landpage loja personalizada"
         description="Uma landpage exemplo para sua loja ou empresa com uma boa responsividade, entre em contato para fazer a sua! O projeto utiliza Typescript, NextJS e Tailwind.">
         </ProjectBox>

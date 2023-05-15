@@ -1,6 +1,7 @@
 import PageWrapper from "../../components/pagewrapper.js";
 import ProjectBox from "../../components/projectbox.js";
 
+import paginapersonalizada from "../../imgs/pagina-personalizada.png"
 import marvelimg from "../../imgs/marvelimg.png"
 import feelsocialimg from "../../imgs/feelsociallogo.png"
 import listadecomprasimg from "../../imgs/listadecompras.png"
@@ -12,6 +13,13 @@ export default function Projetos() {
     return (
       <PageWrapper>
         <p class="text-white text-left text-[1.2rem] font-[540] cursor-default">Alguns dos meus projetos pessoais e open-source serão publicados aqui, na minha página do LinkedIn e na minha página do GitHub.</p>
+        <ProjectBox 
+        image={paginapersonalizada}
+        content="https://felippefms.github.io/pagina-customizada/"
+        title= "Landpage loja personalizada"
+        description="Uma landpage exemplo para sua loja ou empresa com uma boa responsividade, entre em contato para fazer a sua! O projeto utiliza Typescript, NextJS e Tailwind.">
+        </ProjectBox>
+        
         <ProjectBox 
         image={marvelimg}
         content="https://github.com/felippefms/marvel-comic-book-store"

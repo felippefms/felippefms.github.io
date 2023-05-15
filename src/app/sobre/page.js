@@ -21,7 +21,7 @@ export default function Sobre() {
         </p>
 
         <div class="flex flex-col items-center space-y-2">
-          <p class="text-white text-[1.1rem] font-[500]">Deseja saber mais?</p>
+          <p class="text-white text-[1.1rem] font-[500] cursor-default">Deseja saber mais?</p>
           <a href={curriculum} download class="w-fit p-4 font-semibold text-white rounded-full bg-[#000000b0] hover:bg-white hover:text-hoverpurple">Baixe meu CV</a>
         </div>
 

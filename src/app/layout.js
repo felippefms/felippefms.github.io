@@ -3,7 +3,6 @@ import { Montserrat } from 'next/font/google';
 
 const montserrat = Montserrat({
   subsets: ['latin'],
-  variable: '--font-montserrat',
   display: 'swap',
 });
 
@@ -14,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pt-br" className={`${montserrat.variable}`}>
+    <html lang="pt-br" className={montserrat.className}>
       <body class="w-screen h-screen bg-bgimage bg-cover bg-center bg-no-repeat bg-scroll flex flex-col content-center items-center text-center">
         {children}
       </body>

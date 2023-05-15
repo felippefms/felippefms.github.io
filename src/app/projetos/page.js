@@ -30,8 +30,8 @@ export default function Projetos() {
         <ProjectBox 
         image={feelsocialimg}
         content="https://github.com/felippefms/feelsocial"
-        title= "Feelsocial"
-        description="Um projeto de rede social utilizando Typescript e Styled-Components contando com um belo design e funcionalidades como chat e login de usuários.">
+        title= "Feelsocial (Em Breve)"
+        description="Um projeto de rede social utilizando Typescript, NextJS e Tailwind contando com um belo design e funcionalidades como chat e login de usuários.">
         </ProjectBox>
 
         <ProjectBox 

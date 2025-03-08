@@ -16,7 +16,7 @@ import typescriptimg from "../../imgs/typescript.png";
 export default function Conhecimentos() {
     return (
       <PageWrapper>
-        <p class="text-white text-left text-[1.2rem] font-[540] cursor-default">O principal objetivo desse site é tornar de forma pública todos os meus conhecimentos em diversas tecnologias, frameworks e bibliotecas, assim como a publicação dos meus projetos pessoais de portfólio.<br /><br /></p>
+        <p className="text-white text-left text-[1.2rem] font-[540] cursor-default">O principal objetivo desse site é tornar de forma pública todos os meus conhecimentos em diversas tecnologias, frameworks e bibliotecas, assim como a publicação dos meus projetos pessoais de portfólio.<br /><br /></p>
         <KnowledgeBox image={html5img} text="HTML 5" description="Tags de HTML atuais e de fácil leitura, código limpo e atribuições com funções Javascript."></KnowledgeBox>
         <KnowledgeBox image={css3img} text="CSS 3" description="Responsividade, UI, estilos, efeitos, transições e media queries."></KnowledgeBox>
         <KnowledgeBox image={javascriptimg} text="JAVASCRIPT" description="Funções, manipulação da DOM, eventos e programação WEB moderna."></KnowledgeBox>

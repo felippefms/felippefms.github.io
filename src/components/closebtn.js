@@ -4,7 +4,7 @@ import closebtn from "../imgs/close.png";
 
 function CloseBtn(){
     return(
-        <button class="absolute right-8 top-12">
+        <button className="absolute right-8 top-12">
             <Link href="/">
                 <Image
                 src={closebtn}

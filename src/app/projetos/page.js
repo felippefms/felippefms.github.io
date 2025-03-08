@@ -6,13 +6,12 @@ import marvelimg from "../../imgs/marvelimg.png"
 import feelsocialimg from "../../imgs/feelsociallogo.png"
 import listadecomprasimg from "../../imgs/listadecompras.png"
 import galeriadeimagensimg from "../../imgs/galeria.png"
-import responsivemenuimg from "../../imgs/menu.png"
 import flappybirdimg from "../../imgs/passaro.png"
 
 export default function Projetos() {
     return (
       <PageWrapper>
-        <p class="text-white text-left text-[1.2rem] font-[540] cursor-default">Alguns dos meus projetos pessoais e open-source serão publicados aqui, na minha página do LinkedIn e na minha página do GitHub.</p>
+        <p className="text-white text-left text-[1.2rem] font-[540] cursor-default">Alguns dos meus projetos pessoais e open-source serão publicados aqui, na minha página do LinkedIn e na minha página do GitHub.</p>
         <ProjectBox 
         image={paginapersonalizada}
         content="https://github.com/felippefms/pagina-customizada"
@@ -46,13 +45,6 @@ export default function Projetos() {
         content="https://github.com/felippefms"
         title= "Lista de Compras (Em Breve)"
         description="Um aplicativo de lista de compras totalmente customizável e rápido para usar sem se preocupar com muitas opções, perfeito para compras do dia a dia.">
-        </ProjectBox>
-        
-        <ProjectBox 
-        image={responsivemenuimg}
-        content="https://felippefms.github.io/responsive-menu/"
-        title= "Responsive Menu"
-        description="Um menu simples e Responsivo, feito com HTML, CSS e Media queries.">
         </ProjectBox>
 
         <ProjectBox 

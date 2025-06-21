@@ -1,6 +1,6 @@
 {
   "name": "felippefms.github.io",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -9,12 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "autoprefixer": "10.4.14",
-    "next": "13.3.0",
-    "postcss": "8.4.21",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "sharp": "^0.32.0",
-    "tailwindcss": "3.3.1"
+    "autoprefixer": "^10.4.14",
+    "eslint-config-next": "^15.2.3",
+    "next": "^15.2.3",
+    "postcss": "^8.5.3",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "sharp": "^0.32.6",
+    "tailwindcss": "^3.3.1"
   }
 }

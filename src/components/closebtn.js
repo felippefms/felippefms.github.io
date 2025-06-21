@@ -6,12 +6,7 @@ function CloseBtn(){
     return(
         <button className="absolute right-8 top-12">
             <Link href="/">
-                <Image
-                src={closebtn}
-                width={40}
-                height={40}
-                >
-                </Image>
+                <Image src={closebtn} width={40} height={40} alt='Fechar' />
             </Link>
         </button>
     )

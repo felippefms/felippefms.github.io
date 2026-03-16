@@ -47,7 +47,7 @@ function AnimatedWord({ word, active, locale }: { word: string; active: boolean;
 export default function LanguageSwitcher() {
   const { i18n } = useTranslation()
 
-  const locale = i18n.language
+  const locale = i18n.resolvedLanguage
 
   const changeLocale = (lang: string) => {
     i18n.changeLanguage(lang)

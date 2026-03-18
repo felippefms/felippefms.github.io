@@ -2,5 +2,10 @@
   "projects": "projetos",
   "knowledge": "conhecimentos",
   "about": "sobre",
-  "contact": "contato"
+  "contact": "contato",
+  "knowledge_frontend": "front-end",
+  "knowledge_backend": "back-end",
+  "knowledge_databases": "banco de dados",
+  "knowledge_mobile": "mobile",
+  "knowledge_gamedev": "game dev"
 }

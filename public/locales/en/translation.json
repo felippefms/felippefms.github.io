@@ -2,5 +2,10 @@
   "projects": "projects",
   "knowledge": "knowledge",
   "about": "about",
-  "contact": "contact"
+  "contact": "contact",
+  "knowledge_frontend": "front-end",
+  "knowledge_backend": "back-end",
+  "knowledge_databases": "databases",
+  "knowledge_mobile": "mobile",
+  "knowledge_gamedev": "game dev"
 }

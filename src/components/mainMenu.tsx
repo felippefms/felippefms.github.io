@@ -31,16 +31,16 @@ export default function MainMenu() {
 
                     <AnimatePresence>
                         {knowledgeOpen && (
-                            <motion.div initial={{ height: 0, opacity: 0, y: -10 }} animate={{ height: "auto", opacity: 1, y: 0 }} exit={{ height: 0, opacity: 0, y: -10 }} transition={{ duration: 0.4 }} className="flex flex-col w-fit mt-4 space-y-3 overflow-hidden md:absolute md:top-full md:bg-menubgcolor rounded-3xl px-0.5">
-                                <Link to="/knowledge/front-end" className="min-w-62.5 md:min-w-fit text-2xl p-1 font-semibold bg-menubgcolor md:bg-transparent rounded-3xl md:hover:text-hoverpurple flex justify-center">Front-End</Link>
+                            <motion.div initial={{ height: 0, opacity: 0, y: -10 }} animate={{ height: "auto", opacity: 1, y: 0 }} exit={{ height: 0, opacity: 0, y: -10 }} transition={{ duration: 0.4 }} className="flex flex-col w-fit mt-4 space-y-3 min-w-61.75 overflow-hidden md:absolute md:top-full md:bg-menubgcolor rounded-3xl px-0.5">
+                                <Link to="/knowledge/front-end" className="min-w-62.5 md:min-w-fit text-2xl p-1 font-semibold bg-menubgcolor md:bg-transparent rounded-3xl md:hover:text-hoverpurple flex justify-center">{t('knowledge_frontend')}</Link>
 
-                                <Link to="/knowledge/back-end" className="min-w-62.5 md:min-w-fit text-2xl p-1 font-semibold bg-menubgcolor md:bg-transparent rounded-3xl md:hover:text-hoverpurple flex justify-center">Back-End</Link>
+                                <Link to="/knowledge/back-end" className="min-w-62.5 md:min-w-fit text-2xl p-1 font-semibold bg-menubgcolor md:bg-transparent rounded-3xl md:hover:text-hoverpurple flex justify-center">{t('knowledge_backend')}</Link>
 
-                                <Link to="/knowledge/database" className="min-w-62.5 md:min-w-fit text-2xl p-1 font-semibold bg-menubgcolor md:bg-transparent rounded-3xl md:hover:text-hoverpurple flex justify-center">Banco de dados</Link>
+                                <Link to="/knowledge/database" className="min-w-62.5 md:min-w-fit text-2xl p-1 font-semibold bg-menubgcolor md:bg-transparent rounded-3xl md:hover:text-hoverpurple flex justify-center">{t('knowledge_databases')}</Link>
 
-                                <Link to="/knowledge/mobile" className="min-w-62.5 md:min-w-fit text-2xl p-1 font-semibold bg-menubgcolor md:bg-transparent rounded-3xl md:hover:text-hoverpurple flex justify-center">Mobile</Link>
+                                <Link to="/knowledge/mobile" className="min-w-62.5 md:min-w-fit text-2xl p-1 font-semibold bg-menubgcolor md:bg-transparent rounded-3xl md:hover:text-hoverpurple flex justify-center">{t('knowledge_mobile')}</Link>
 
-                                <Link to="/knowledge/game-dev" className="min-w-62.5 md:min-w-fit text-2xl p-1 font-semibold bg-menubgcolor md:bg-transparent rounded-3xl md:hover:text-hoverpurple flex justify-center">Game Dev</Link>
+                                <Link to="/knowledge/game-dev" className="min-w-62.5 md:min-w-fit text-2xl p-1 font-semibold bg-menubgcolor md:bg-transparent rounded-3xl md:hover:text-hoverpurple flex justify-center">{t('knowledge_gamedev')}</Link>
                             </motion.div>
                         )}
                     </AnimatePresence>

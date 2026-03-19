@@ -3,9 +3,30 @@
   "knowledge": "knowledge",
   "about": "about",
   "contact": "contact",
+
   "knowledge_frontend": "front-end",
   "knowledge_backend": "back-end",
   "knowledge_databases": "databases",
   "knowledge_mobile": "mobile",
-  "knowledge_gamedev": "game dev"
+  "knowledge_gamedev": "game dev",
+
+  "projects_main_text": "Some of my personal and open-source projects will be published here, on my LinkedIn page, and on my GitHub.",
+
+  "landpage_project_title": "Custom store landpage",
+  "landpage_project_description": "A sample landing page for your store or business with great responsiveness. Get in touch to have yours built! The project uses TypeScript, Next.js, and Tailwind.",
+
+  "marvel_project_title": "Marvel Comic-Book Store",
+  "marvel_project_description": "An online comic book store REST API built with React and Styled Components, allowing you to browse your favorite comics and add them to your shopping cart.",
+
+  "feelsocial_project_title": "Feelsocial (Coming Soon)",
+  "feelsocial_project_description": "A social network project built with TypeScript, Next.js, and Tailwind, featuring a beautiful design and functionalities such as chat and user login.",
+
+  "galery_project_title": "Image galery",
+  "galery_project_description": "An animal image gallery project built with React.",
+
+  "marketlist_project_title": "Shopping List (Coming Soon)",
+  "marketlist_project_description": "A fully customizable and fast shopping list app, designed to be simple to use without overwhelming options, perfect for everyday grocery shopping.",
+
+  "flappybird_project_title": "Flappy Bird",
+  "flappybird_project_description": "A Flappy Bird-style game created using JavaScript during the WEB MODERNO course by Cod3r."
 }

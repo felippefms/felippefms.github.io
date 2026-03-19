@@ -1,6 +1,7 @@
 import PageWrapper from '#/components/pagewrapper'
 import { createFileRoute } from '@tanstack/react-router'
 import ProjectBox from '#/components/projectbox'
+import { useTranslation } from 'react-i18next'
 
 import paginapersonalizada from "@/media/images/pagina-personalizada.png"
 import marvelimg from "@/media/images/marvelimg.png"
@@ -14,49 +15,51 @@ export const Route = createFileRoute('/projects')({
 })
 
 function Projects() {
+  const { t } = useTranslation();
+
   return (
       <PageWrapper>
-        <p className="text-white text-center text-[1.2rem] font-[540] cursor-default">Alguns dos meus projetos pessoais e open-source serão publicados aqui, na minha página do LinkedIn e na minha página do GitHub.</p>
+        <p className="text-white text-center text-[1.2rem] font-[540] cursor-default">{t('projects_main_text')}</p>
         <ProjectBox 
         image={paginapersonalizada}
         content="https://github.com/felippefms/pagina-customizada"
-        title= "Landpage loja personalizada"
-        description="Uma landpage exemplo para sua loja ou empresa com uma boa responsividade, entre em contato para fazer a sua! O projeto utiliza Typescript, NextJS e Tailwind.">
+        title= {t('landpage_project_title')}
+        description= {t('landpage_project_description')}>
         </ProjectBox>
         
         <ProjectBox 
         image={marvelimg}
         content="https://github.com/felippefms/marvel-comic-book-store"
-        title= "Marvel Comic-Book Store"
-        description="Uma loja de quadrinhos API REST online utilizando React e Styled-Components para você ver suas HQs favoritas e adiciona-lás ao carrinho de compras.">
+        title= {t('marvel_project_title')}
+        description= {t('marvel_project_description')}>
         </ProjectBox>
 
         <ProjectBox 
         image={feelsocialimg}
         content="https://github.com/felippefms/feelsocial"
-        title= "Feelsocial (Em Breve)"
-        description="Um projeto de rede social utilizando Typescript, NextJS e Tailwind contando com um belo design e funcionalidades como chat e login de usuários.">
+        title= {t('feelsocial_project_title')}
+        description= {t('feelsocial_project_description')}>
         </ProjectBox>
 
         <ProjectBox 
         image={galeriadeimagensimg}
         content="https://github.com/felippefms/galeria_animais"
-        title= "Galeria de Imagens"
-        description="Um projeto de galeria de imagens de animais utilizando React.">
+        title= {t('galery_project_title')}
+        description= {t('galery_project_description')}>
         </ProjectBox>
 
         <ProjectBox 
         image={listadecomprasimg}
         content="https://github.com/felippefms"
-        title= "Lista de Compras (Em Breve)"
-        description="Um aplicativo de lista de compras totalmente customizável e rápido para usar sem se preocupar com muitas opções, perfeito para compras do dia a dia.">
+        title= {t('marketlist_project_title')}
+        description= {t('marketlist_project_description')}>
         </ProjectBox>
 
         <ProjectBox 
         image={flappybirdimg}
         content="https://github.com/felippefms/Flappy-Bird"
-        title= "Flappy Bird"
-        description="Um jogo ao estilo Flappy Bird, criado utilizando Javascript durante o curso WEB MODERNO da Cod3r.">
+        title= {t('flappybird_project_title')}
+        description= {t('flappybird_project_description')}>
         </ProjectBox>
       </PageWrapper>
   )

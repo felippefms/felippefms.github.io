@@ -36,5 +36,11 @@
   "about_text_p4": "If you're interested in working together, feel free to get in touch via email or phone, it will be a pleasure to help you!",
 
   "about_cta_text": "Want to know more?",
-  "about_download_cv": "Download my resume"
+  "about_download_cv": "Download my resume",
+
+  "contact_phone": "Phone",
+  "contact_phone_number": "+55 (27) 99905-3721",
+  "contact_email": "E-Mail",
+  "contact_github": "GitHub",
+  "contact_linkedin": "LinkedIn"
 }

@@ -36,5 +36,11 @@
   "about_text_p4": "Se deseja uma oportunidade de trabalharmos juntos, entre em contato por email ou telefone, será um prazer ajudar você !",
   
   "about_cta_text": "Deseja saber mais?",
-  "about_download_cv": "Baixe meu CV"
+  "about_download_cv": "Baixe meu CV",
+
+  "contact_phone": "Telefone",
+  "contact_phone_number": "(27) 99905-3721",
+  "contact_email": "E-Mail",
+  "contact_github": "GitHub",
+  "contact_linkedin": "LinkedIn"
 }

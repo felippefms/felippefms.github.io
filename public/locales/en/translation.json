@@ -28,5 +28,13 @@
   "marketlist_project_description": "A fully customizable and fast shopping list app, designed to be simple to use without overwhelming options, perfect for everyday grocery shopping.",
 
   "flappybird_project_title": "Flappy Bird",
-  "flappybird_project_description": "A Flappy Bird-style game created using JavaScript during the WEB MODERNO course by Cod3r."
+  "flappybird_project_description": "A Flappy Bird-style game created using JavaScript during the WEB MODERNO course by Cod3r.",
+
+  "about_text_p1": "Hello!",
+  "about_text_p2": "My name is Felipe Madureira de Souza, I am a software developer graduated in Systems Analysis and Development. At the age of 16, I discovered programming, and since then I have dedicated myself to studying and putting my ideas into practice. I have experience in building and maintaining complete systems, from their early stages to deployment, both in the industrial sector and in developing systems and websites for companies of all sizes, as well as working as a freelancer in my spare time.",
+  "about_text_p3": "Passionate about music, games, and hardware, I am always trying something new, whether it's a web project, learning a new technology, or spending time with family and friends. Check out the other sections of the site, where I share a bit about my projects and knowledge that help me grow into the best developer I can be.",
+  "about_text_p4": "If you're interested in working together, feel free to get in touch via email or phone, it will be a pleasure to help you!",
+
+  "about_cta_text": "Want to know more?",
+  "about_download_cv": "Download my resume"
 }

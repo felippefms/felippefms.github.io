@@ -28,5 +28,13 @@
   "marketlist_project_description": "Um aplicativo de lista de compras totalmente customizável e rápido para usar sem se preocupar com muitas opções, perfeito para compras do dia a dia.",
 
   "flappybird_project_title": "Flappy Bird",
-  "flappybird_project_description": "Um jogo ao estilo Flappy Bird, criado utilizando Javascript durante o curso WEB MODERNO da Cod3r."
+  "flappybird_project_description": "Um jogo ao estilo Flappy Bird, criado utilizando Javascript durante o curso WEB MODERNO da Cod3r.",
+
+  "about_text_p1": "Olá !",
+  "about_text_p2": "Me chamo Felipe Madureira de Souza, sou um desenvolvedor de software formado em Análise e Desenvolvimento de Sistemas. Aos 16 anos conheci a programação e desde então me dedico a estudar e colocar em prática minhas ideias. Possuo experiência na criação e manutênção de sistemas completos, desde seus estágios iniciais até a sua implementação, tanto no setor industrial quanto no desenvolvimento de sistemas e sites para empresas grandes ou pequenas, além de atuar como freelancer nas horas vagas.",
+  "about_text_p3": "Apaixonado por música, jogos e hardware, sempre tento algo novo, seja um projeto na web, aprender uma nova tecnologia ou passar um tempo com a família e amigos. Visite as outras opções do site, lá eu conto um pouco sobre meus projetos e conhecimentos que ajudam na caminhada para me tornar o melhor desenvolvedor que eu posso ser.",
+  "about_text_p4": "Se deseja uma oportunidade de trabalharmos juntos, entre em contato por email ou telefone, será um prazer ajudar você !",
+  
+  "about_cta_text": "Deseja saber mais?",
+  "about_download_cv": "Baixe meu CV"
 }

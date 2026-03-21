@@ -12,6 +12,9 @@
 
   "projects_main_text": "Alguns dos meus projetos pessoais e open-source serão publicados aqui, na minha página do LinkedIn e na minha página do GitHub.",
 
+  "gamebitlist_project_title": "Gamebitlist",
+  "gamebitlist_project_description": "Um aplicativo customizável para você adicionar seus jogos zerados ou montar sua lista de desejos, escolhendo plataforma, nome e imagem customizável para uma experiência única!",
+
   "landpage_project_title": "Landpage loja personalizada",
   "landpage_project_description": "Uma landpage exemplo para sua loja ou empresa com uma boa responsividade, entre em contato para fazer a sua! O projeto utiliza Typescript, NextJS e Tailwind.",
 
@@ -42,5 +45,25 @@
   "contact_phone_number": "(27) 99905-3721",
   "contact_email": "E-Mail",
   "contact_github": "GitHub",
-  "contact_linkedin": "LinkedIn"
+  "contact_linkedin": "LinkedIn",
+
+  "knowledge_html5": "Tags de HTML atuais e de fácil leitura, código limpo e atribuições com funções Javascript.",
+  "knowledge_css3": "Responsividade, UI, estilos, efeitos, transições e media queries.",
+  "knowledge_javascript": "Funções, manipulação da DOM, eventos e programação WEB moderna.",
+  "knowledge_typescript": "Utilização de Typescript para uma melhor tipagem e controle de aplicações.",
+  "knowledge_react": "Criação de aplicações WEB utilizando ReactJS para toda a estrutura e comportamento do site.",
+  "knowledge_nextjs": "Criação de aplicações WEB utilizando Next.js para melhor performace e rapidez no desenvolvimento.",
+  "knowledge_bootstrap": "Utilização de Bootstrap em aplicações WEB, tags e escrita seguindo a documentação.",
+  "knowledge_styled_components": "Utilização de componentes customizáveis e com uso de funções Javascript dentro do CSS.",
+  "knowledge_tailwind": "Estilização máxima e com a melhor performace possível utilizando Tailwind nas aplicações.",
+  "knowledge_nodejs": "Criação de arrays, objetos e funções JAVASCRIPT, JSON e código limpo para fácil leitura.",
+  "knowledge_python": "Desenvolvimento de scripts, automações e aplicações backend utilizando Python, com foco em código limpo, manipulação de dados e boas práticas.",
+  "knowledge_fastapi": "Criação de APIs REST rápidas e eficientes utilizando FastAPI, validação de dados com Pydantic, tipagem com Python e integração com bancos de dados.",
+  "knowledge_django": "Criação de APIs REST utilizando Django, incluindo criação de modelos, rotas e integração com banco de dados.",
+  "knowledge_mysql": "Modelagem e gerenciamento de bancos de dados relacionais com MySQL, criação de tabelas, relacionamentos, consultas SQL (SELECT, INSERT, UPDATE, DELETE) e otimização de consultas.",
+  "knowledge_postgresql": "Desenvolvimento e gerenciamento de bancos de dados com PostgreSQL prontos para produção e consultas SQL (SELECT, INSERT, UPDATE, DELETE), JOINs e otimização de desempenho.",
+  "knowledge_react_native": "Desenvolviento completo, build e deploy de diversos aplicativos utilizando React Native.",
+  "knowledge_hammer": "Criação, edição, manipulação de texturas, compilação e exportação de mapas e assets utilizando as engines Source e GoldSource.",
+  "knowledge_unreal3": "Criação de mapas, terrenos e utilização de assets do Unreal Editor 3.",
+  "knowledge_lunarmagic": "Criação de mapas, edição de fases e caminhos e recriação completa do mapa do Super Mario World do Super Nintendo utilizando o Lunar Magic criado por FuSoYa."
 }

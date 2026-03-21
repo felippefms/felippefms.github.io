@@ -3,6 +3,7 @@ import { createFileRoute } from '@tanstack/react-router'
 import ProjectBox from '#/components/projectbox'
 import { useTranslation } from 'react-i18next'
 
+import gamebitlistimg from "@/media/images/gamebitlist.png"
 import paginapersonalizada from "@/media/images/pagina-personalizada.png"
 import marvelimg from "@/media/images/marvelimg.png"
 import feelsocialimg from "@/media/images/feelsociallogo.png"
@@ -20,6 +21,13 @@ function Projects() {
   return (
       <PageWrapper>
         <p className="text-white text-center text-[1.2rem] font-[540] cursor-default">{t('projects_main_text')}</p>
+        <ProjectBox 
+        image={gamebitlistimg}
+        content="https://github.com/felippefms/gamebitlist-release"
+        title= {t('gamebitlist_project_title')}
+        description= {t('gamebitlist_project_description')}>
+        </ProjectBox>
+
         <ProjectBox 
         image={paginapersonalizada}
         content="https://github.com/felippefms/pagina-customizada"

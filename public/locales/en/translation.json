@@ -4,13 +4,16 @@
   "about": "about",
   "contact": "contact",
 
-  "knowledge_frontend": "front-end",
-  "knowledge_backend": "back-end",
-  "knowledge_databases": "databases",
-  "knowledge_mobile": "mobile",
-  "knowledge_gamedev": "game dev",
+  "knowledge_frontend": "Front-end",
+  "knowledge_backend": "Back-end",
+  "knowledge_databases": "Databases",
+  "knowledge_mobile": "Mobile",
+  "knowledge_gamedev": "Game dev",
 
   "projects_main_text": "Some of my personal and open-source projects will be published here, on my LinkedIn page, and on my GitHub.",
+
+  "gamebitlist_project_title": "Gamebitlist",
+  "gamebitlist_project_description": "A customizable app for you to add the games you've completed or build your wishlist, choosing platform, name, and a customizable image for a unique experience!",
 
   "landpage_project_title": "Custom store landpage",
   "landpage_project_description": "A sample landing page for your store or business with great responsiveness. Get in touch to have yours built! The project uses TypeScript, Next.js, and Tailwind.",
@@ -42,5 +45,22 @@
   "contact_phone_number": "+55 (27) 99905-3721",
   "contact_email": "E-Mail",
   "contact_github": "GitHub",
-  "contact_linkedin": "LinkedIn"
+  "contact_linkedin": "LinkedIn",
+
+  "knowledge_html5": "Modern and readable HTML tags, clean code, and attributes enhanced with JavaScript functions.",
+  "knowledge_css3": "Responsiveness, UI design, styling, effects, transitions, and media queries.",
+  "knowledge_javascript": "Functions, DOM manipulation, events, and modern web development.",
+  "knowledge_typescript": "Using TypeScript for better typing and improved application control.",
+  "knowledge_react": "Building web applications using ReactJS for structure and dynamic behavior.",
+  "knowledge_nextjs": "Developing web applications with Next.js for better performance and faster development.",
+  "knowledge_bootstrap": "Using Bootstrap in web applications, following its components and documentation standards.",
+  "knowledge_styled_components": "Creating customizable components with JavaScript logic integrated into CSS.",
+  "knowledge_tailwind": "Highly efficient styling with maximum performance using Tailwind in applications.",
+  "knowledge_nodejs": "Creation of arrays, objects, and JavaScript functions, JSON handling, and clean, easy-to-read code.",
+  "knowledge_python": "Development of scripts, automations, and backend applications using Python, with a focus on clean code, data manipulation, and best practices.",
+  "knowledge_fastapi": "Building fast and efficient REST APIs using FastAPI, with data validation via Pydantic, Python typing, and database integration.",
+  "knowledge_django": "Building REST APIs using Django, including model creation, routing, and database integration.",
+  "knowledge_hammer": "Creation, editing, and manipulation of textures, as well as compilation and export of maps and assets using the Source and GoldSource engines.",
+  "knowledge_unreal3": "Creation of maps, terrains, and use of assets in Unreal Editor 3.",
+  "knowledge_lunarmagic": "Creation of maps, level editing and paths, and complete recreation of the Super Mario World map for the Super Nintendo using Lunar Magic created by FuSoYa."
 }

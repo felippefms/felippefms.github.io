@@ -4,17 +4,21 @@ import KnowledgeBox from '@/components/knowlegdebox';
 
 import mysqlimg from "@/media/images/mysql.png";
 import postgresql from "@/media/images/postgresql.png";
+import { useTranslation } from 'react-i18next';
 
 export const Route = createFileRoute('/knowledge/database')({
   component: Database,
 })
 
 function Database() {
+
+  const { t } = useTranslation()
+
   return (
     <PageWrapper>
-      <h1 className="text-white text-center text-[1.5rem] font-[540] cursor-default">BANCO DE DADOS<br /><br /></h1>
-      <KnowledgeBox image={mysqlimg} text="MYSQL" description="Modelagem e gerenciamento de bancos de dados relacionais com MySQL, criação de tabelas, relacionamentos, consultas SQL (SELECT, INSERT, UPDATE, DELETE) e otimização de consultas." />
-      <KnowledgeBox image={postgresql} text="POSTGRESQL" description="Desenvolvimento e gerenciamento de bancos de dados com PostgreSQL prontos para produção e consultas SQL (SELECT, INSERT, UPDATE, DELETE), JOINs e otimização de desempenho." />
+      <h1 className="text-white text-center text-[1.5rem] font-[540] cursor-default">{t('knowledge_databases')}<br /><br /></h1>
+      <KnowledgeBox image={mysqlimg} text="MYSQL" description={t('knowledge_mysql')} />
+      <KnowledgeBox image={postgresql} text="POSTGRESQL" description={t('knowledge_postgresql')} />
     </PageWrapper>
   )
 }

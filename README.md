@@ -1,6 +1,6 @@
 # Bem vindo(a) ao meu site !
 
-# Acesse em: https://felippefms.github.io/
+# Acesse em: https://felippefms.com.br/
 
 Meu site funciona como portfólio e blog para minhas atualizações de projetos, conhecimentos e experiências dentro do desenvolvimento de sites e aplicativos.
 
